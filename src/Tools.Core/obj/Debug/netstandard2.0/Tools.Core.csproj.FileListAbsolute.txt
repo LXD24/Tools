@@ -1,0 +1,15 @@
+D:\self\codes\Tools\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.deps.json
+D:\self\codes\Tools\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.dll
+D:\self\codes\Tools\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.AssemblyInfoInputs.cache
+D:\self\codes\Tools\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.AssemblyInfo.cs
+D:\self\codes\Tools\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.pdb
+D:\self\codes\Tools\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.dll
+D:\self\codes\Tools\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.pdb
+D:\self\codes\Tools\src\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.deps.json
+D:\self\codes\Tools\src\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.dll
+D:\self\codes\Tools\src\Tools.Core\bin\Debug\netstandard2.0\Tools.Core.pdb
+D:\self\codes\Tools\src\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.csprojAssemblyReference.cache
+D:\self\codes\Tools\src\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.AssemblyInfoInputs.cache
+D:\self\codes\Tools\src\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.AssemblyInfo.cs
+D:\self\codes\Tools\src\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.dll
+D:\self\codes\Tools\src\Tools.Core\obj\Debug\netstandard2.0\Tools.Core.pdb

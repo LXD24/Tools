@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModel\新文件夹\**" />
+    <EmbeddedResource Remove="ViewModel\新文件夹\**" />
+    <None Remove="ViewModel\新文件夹\**" />
+    <Page Remove="ViewModel\新文件夹\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AduSkin" Version="1.1.1.7" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
+    <PackageReference Include="itext7" Version="7.1.11" />
+    <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tools.Core\Tools.Core.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Controls\Image2AsciiCharacters.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Page Update="Controls\Image2AsciiCharacters.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

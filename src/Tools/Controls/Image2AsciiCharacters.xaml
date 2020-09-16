@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Tools.Controls.Image2AsciiCharacters"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:metro="clr-namespace:AduSkin.Controls.Metro;assembly=AduSkin"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1500"
+             DataContext="{Binding Source={StaticResource Locator},Path=Image2AsciiCharacters}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <!--<RowDefinition></RowDefinition>-->
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Grid.Row="0">
+            <metro:AduFlatButton Width="100" Margin="0 0 10 0"  Command="{Binding SelectImageCommand}" IsEnabled="{Binding BtnEnabled}"  Content="{Binding BtnContent}" Type="info" />
+        </StackPanel>
+        <RichTextBox  Grid.Row="1"  Height="500" Width="auto" FontSize="12" FontFamily="宋体">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="{Binding GenerateResult}"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</UserControl>
